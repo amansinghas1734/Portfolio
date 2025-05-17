@@ -1,0 +1,168 @@
+
+#logo{
+    height: 45px;
+    width: 45px;
+    position: fixed;
+    left: 10px;
+    top: 6px;
+    cursor: pointer;
+}
+.nav{
+    background-color: black;
+    height: 7%;
+    width: 100%;
+    position: fixed;
+    left: 0%;
+    top: 0%;
+    border: 20px;
+    border-color: blue;
+}
+.opt{
+    position: fixed;
+    right: 20px;
+    width: 30%;
+    top: 4px;
+    height: 6%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.n1{
+    font-size: 24px;
+}
+.nl:hover{
+    color: rgb(8, 113, 250);
+    transition: color 0.3s;
+}
+body{
+    background-attachment:scroll;
+    background-size: cover;
+}
+#me{
+    height: 400px;
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    cursor: pointer;
+    transition: height 0.8s;
+}
+#me:hover{
+    height: 500px;
+    
+}
+#l1{
+    color: white;
+    font-size: 30px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800; 
+    position: relative;
+    bottom: -65px;
+}
+#l2{
+    color: rgb(8, 113, 250);
+    font-size: 35px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800; 
+    position: relative;
+    bottom: -40px;
+    transition: font-size 0.15s;
+    cursor: pointer;
+    animation: 1s blink ease-in-out 1;
+}
+#l2:hover{
+    font-size: 40px;
+}
+@keyframes blink{
+    0%{
+        transform:translatex(-600px) scale(0%);
+    }
+    100%{
+        transform:translatex(0px);
+    }
+    
+}
+#l3{
+    color: white;
+    font-size: 24px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800; 
+    position: relative;
+    top: 15px;
+}
+#l4{
+    color: white;
+    font-size: 24px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800; 
+}
+.hello{
+    position: absolute;
+    top: 21%;
+    right: 15%;
+    height: 20%;
+}
+#title{
+    position: relative;
+    left: 65px;
+    top: -8px;
+    color: white;
+    font-size:larger;
+    font-weight: bolder;
+    font-family:"Anta", sans-serif;
+    cursor: pointer;
+    
+}
+#res{
+    color: black;
+    font-family: "Anta", sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    border-color: rgb(13, 13, 188);
+    border-width: 2px;
+    box-shadow: 1px 2px 1px red;
+    background-color: azure;
+    padding: 7px 10px;
+    position: absolute;
+    left: 60%;
+    top: 78%;
+    cursor: pointer;
+    height: 50px;
+    width: 120px;
+    border-radius: 25px;
+    transition: height 1.15s,width 1.15s;
+}
+#res:hover{
+    height: 60px;
+    width: 140px;
+}
+
+ul{
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+.dmv{
+    transition: font-size 0.15s;
+}
+.dmv:hover{
+    font-size: 28px;
+}
+.dm{
+    color: white;
+    font-size: 24px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800; 
+    position: relative;
+    top: 15px;
+}
+.wrapper{
+    position: relative;
+    top: -20px;
+}
