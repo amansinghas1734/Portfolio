@@ -4,7 +4,14 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Anta&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="Home.css">
-        
+        <script>
+            function meh() {
+    document.getElementById("l2").classList.add("mehc");
+  }
+  function normal() {
+    document.getElementById("l2").classList.remove("mehc");
+  }
+        </script>
     </head>
     <body background="image.png">
         <div class="nav"> 
@@ -15,14 +22,14 @@
             <div class="opt">
                 <a class="nl" href="#about">About</a>
                 <a class="nl" href="Skills.html">Skills</a>
-                <a class="nl" href="Load.html">Projects</a>
-                <a class="nl" href="Load.html">Contact</a>
+                <a class="nl" href="Project.html">Projects</a>
+                <a class="nl" href="Contact.html">Contact</a>
             </div>
         </div>
 
         <div class="d1">
         <div id="da">
-            <img id="me" src="mec.png" alt="">
+            <img id="me" src="mec.png" tabindex="0" onmouseenter="meh()" onmouseleave="normal()">
             <div class="hello">
                 <p id="l1">Hello, It's Me</p>
                 <a href="Home.html"><p id="l2">Aman Singh</p></a>
@@ -115,7 +122,7 @@ This knowledge helps me write efficient code and debug system-level problems eff
             </div>
         </div>
         </div>
-        <div id="wd">
+        <div id="es">
             <div id="abt">
                 <div id="abth">IoT</div>
                 <br>

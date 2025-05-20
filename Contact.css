@@ -1,0 +1,77 @@
+.cc{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.cl{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.clt h2{
+    font-weight: 600;
+    color: white;
+    font-size: 40px;
+    margin-bottom: 5px;
+    transition: color 0.2s;
+}
+.clt h2:hover{
+    color: rgb(8, 113, 250);
+}
+.clt hr{
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: rgb(8, 113, 250);
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.cin{
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding-left: 25px;
+    font-weight: 500;
+    color: blue;
+    border-radius: 50px;
+}
+.cl textarea{
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+.cin:focus{
+    border: 2px solid blue;
+}
+.cin::placeholder{
+    color: rgb(8, 113, 250);
+}
+.cl button{
+    display: flex;
+    align-items: center;
+    padding: 15px 30px;
+    font-size: 16px;
+    color: white;
+    gap: 10px;
+    border:none;
+    border-radius: 50px;
+    background: linear-gradient(270deg,rgb(8,113,250),red);
+    cursor: pointer;
+}
+.cl button img{
+    height: 15px;
+}
+.cr img{
+    width: 500px;
+} 
+@media (max-width:800px){
+    .ci{
+        width: 80vw;
+    }
+    .cr{
+        display: none;
+    }
+}

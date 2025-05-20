@@ -1,3 +1,15 @@
+#hed{
+    color: white;
+    position: absolute;
+    top: 8%;
+    left: 46%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    transition: color 0.2s;
+}
+#hed:hover{
+    color: rgb(8, 113, 250);
+
+}
 #tsi{
     height: 500px;
     position: absolute;
@@ -16,29 +28,29 @@
     font-size: 28px;
     font-weight: bold;
     position: absolute;
-    left: 38%;
+    left: 44%;
     top: -10%;
     transition: font-size 0.25s;
 }
 #tsh:hover{
     font-size: 32px;
 }
-#tsc li b,#ssc li b{
-    transition: color 0.15s,font-size 0.15s;
-}
-#tsc li b:hover,#ssc li b:hover{
-    color: rgb(8,113,250);
-    font-size: 28px;
+#tsc {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: 24px; 
+    font-weight:bold ;
+    position: relative;
+    top: 60px;
+    left: 65px;
 }
 .ts{
+    position: absolute;
+    top: 200%;
     height: 100%;
-    width: 100%;
+    width: 90%;
 }
-.pg{
-
-    display: block;
-}
-.ps{
+#bd{
     position: absolute;
     top: 100%;
     height: 100%;
@@ -62,70 +74,59 @@
     font-size: 28px;
     font-weight: bold;
     position: absolute;
-    left: 12%;
+    left: 35%;
     top: -10%;
     transition: font-size 0.25s;
 }
 #psh:hover{
     font-size: 32px;
 }
-.ss{
-    position: absolute;
-    top: 200%;
-    height: 100%;
-    width: 90%;
-}
-#ssi{
-    height: 500px;
-    position: absolute;
-    top: 20%;
-    left: 6%;
-}
-#ssr{
-    width: 60%;
-    position: absolute;
-    left: 40%;
-    top: 30%;
-}
-#ssh{
-    color: rgb(8, 113, 250);
+.proji{
+    color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 28px;
-    font-weight: bold;
-    position: absolute;
-    left: 20%;
-    top: -10%;
-    transition: font-size 0.25s;
+    font-size: 24px;
 }
-#ssc{
+.wrapp{
     position: relative;
-    top: 50px;
+    width: 60%;
+    left: 590px;
+    top: -430px;
 }
-#ssh:hover{
-    font-size: 32px;
+#pri{
+    height: 500px;
+    position: relative;
+    left: 5%;
 }
-.rs{
+.wrapp li a:hover{
+    color:rgb(8, 113, 250) !important ;
+}
+#th{
     position: absolute;
     top: 300%;
     height: 100%;
     width: 90%;
 }
-.ends{
+#sc{
+    position: absolute;
+    top: 400%;
+    height: 100%;
+    width: 90%;
+}
+.endpj{
     font-family: "Anta", sans-serif;
     font-size: 40px;
     font-weight: bold;
-    position: absolute;
-    top: 400%;
-    left: 5%;
     height: 30%;
-    width: 90%;
+    width: 100%;
     color: white;
     display: inline-flex;
     justify-content: center;
     align-items: center;
     transition: color 0.2s;
+    position: absolute;
+    top: 500%;
 }
-.ends p:hover{
+.endpj p:hover{
     color:rgb(8, 113, 250); 
     cursor: pointer;
 }
