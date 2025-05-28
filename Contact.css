@@ -1,8 +1,8 @@
 .cc{
-    height: 100vh;
+    height: 90vh;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content:space-between;
 }
 .cl{
     display: flex;
@@ -74,4 +74,27 @@
     .cr{
         display: none;
     }
+}
+.soc{
+    display: flex;
+    height: 400px;
+    width: 55px;
+    flex-direction: column;
+    gap: 55px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    border-radius: 20px;
+    border: 1px solid rgb(8, 113, 250);
+}
+.soi{
+    width: 40px;
+    transition: width 0.15s;
+}
+.soi:hover{
+    width: 45px;
+}
+.so{
+    background-color: transparent;
+    border: none;
 }
