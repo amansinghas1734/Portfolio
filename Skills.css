@@ -1,24 +1,41 @@
-#tsi{
-    height: 500px;
-    position: absolute;
-    top: 20%;
-    left: 6%;
+@media (max-width:769px){
+    .ts,.ss{
+        flex-direction: column;
+    }
+    
+    .ps,.rs{
+        flex-direction: column-reverse;
+    }
+    #tsi,#psi,#ssi{
+        width: 60vw !important;
+        margin-bottom: 4vh;
+    }
+    #tsr,#psr,#ssr{
+        width: 75vw !important;
+    }
+    #tsh,#psh,#ssh{
+        width: 75vw !important;
+    }
+
 }
-#tsr{
-    width: 60%;
-    position: absolute;
-    left: 35%;
-    top: 28%;
+    
+#tsi,#psi,#ssi{
+    width: 25vw;
 }
-#tsh{
+#tsr,#psr,#ssr{
+    width: 60vw;
+    justify-content: center;
+    align-items: center;
+    padding-right: 4vw;
+}
+#tsh,#psh,#ssh{
     color: rgb(8, 113, 250);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 28px;
     font-weight: bold;
-    position: absolute;
-    left: 38%;
-    top: -10%;
     transition: font-size 0.25s;
+    width: 60vw;
+    text-align: center;
 }
 #tsh:hover{
     font-size: 32px;
@@ -30,99 +47,36 @@
     color: rgb(8,113,250);
     font-size: 28px;
 }
-.ts{
-    height: 100%;
-    width: 100%;
+.ts,.ps,.ss,.rs{
+    margin-top: 18vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .pg{
+    display: flex;
+    flex-direction: column;
+}
 
-    display: block;
-}
-.ps{
-    position: absolute;
-    top: 100%;
-    height: 100%;
-    width: 90%;
-}
-#psi{
-    height: 500px;
-    position: absolute;
-    top: 20%;
-    left: 75%;
-}
-#psr{
-    width: 60%;
-    position: absolute;
-    left: 12%;
-    top: 35%;
-}
-#psh{
-    color: rgb(8, 113, 250);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 28px;
-    font-weight: bold;
-    position: absolute;
-    left: 12%;
-    top: -10%;
-    transition: font-size 0.25s;
-}
 #psh:hover{
     font-size: 32px;
 }
-.ss{
-    position: absolute;
-    top: 200%;
-    height: 100%;
-    width: 90%;
-}
-#ssi{
-    height: 500px;
-    position: absolute;
-    top: 20%;
-    left: 6%;
-}
-#ssr{
-    width: 60%;
-    position: absolute;
-    left: 40%;
-    top: 30%;
-}
-#ssh{
-    color: rgb(8, 113, 250);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 28px;
-    font-weight: bold;
-    position: absolute;
-    left: 20%;
-    top: -10%;
-    transition: font-size 0.25s;
-}
-#ssc{
-    position: relative;
-    top: 50px;
-}
+
+
 #ssh:hover{
     font-size: 32px;
 }
-.rs{
-    position: absolute;
-    top: 300%;
-    height: 100%;
-    width: 90%;
-}
+
 .ends{
     font-family: "Anta", sans-serif;
     font-size: 40px;
     font-weight: bold;
-    position: absolute;
-    top: 400%;
-    left: 5%;
-    height: 30%;
-    width: 90%;
     color: white;
     display: inline-flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     transition: color 0.2s;
 }
 .ends p:hover{

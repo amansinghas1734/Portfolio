@@ -33,7 +33,7 @@
         display: block;
         width: 100vw;
         justify-content:center;
-        height: 14vh;
+        height: 15vh;
     }
     #ame,#wde,#dsai,#ese{
         display: none;
@@ -296,8 +296,8 @@ ul{
     font-family: "Anta", sans-serif;
     font-size: 40px;
     font-weight: bold;
-    height: 30%;
-    width: 100%;
+    height: 30vh;
+    width: 100vw;
     color: white;
     display: inline-flex;
     justify-content: center;
